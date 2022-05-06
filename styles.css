@@ -1,17 +1,41 @@
+body {
+  background-color: #faf5e4;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-    margin-top: 1%;
-    display: grid;
-    grid-template-columns: repeat(16, 50px);
-    grid-template-rows: repeat(16, 50px);
-    justify-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
+  margin: 1% auto;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #ff6363;
+  border: 0;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.35);
+}
+
+.btn:active {
+  transform: scale(0.97);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.35);
+  opacity: 0.95;
 }
 
 .square {
-    display: flex;
-    background-color: #C4DDFF;
-    display: inline-block;
+  display: flex;
+  background-color: #f8b400;
+  display: inline-block;
 }
 
 .hovered {
-    background-color: #001D6E;
+  background-color: #125b50;
 }
